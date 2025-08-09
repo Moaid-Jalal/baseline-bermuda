@@ -1,6 +1,7 @@
-import { Navbar } from './components/navbar';
+import { Provider } from '@/providers/provider';
 import './globals.css';
 import type { Metadata } from 'next';
+import { HorizontalProgressBar } from './_components/splashscreen/splashscreen';
 
 
 export const metadata: Metadata = {
@@ -16,7 +17,9 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning>
       <body>
-        {children}
+        <Provider
+          children={children}
+        />
       </body>
     </html>
   );
