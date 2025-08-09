@@ -5,8 +5,7 @@ import { HorizontalProgressBar } from './_components/splashscreen/splashscreen';
 
 
 export const metadata: Metadata = {
-  title: 'نظام الإدارة | لوحة التحكم',
-  description: 'نظام إدارة متكامل للمنتجات والطلبات والمدراء',
+  title: 'bermuda',
 };
 
 export default function RootLayout({

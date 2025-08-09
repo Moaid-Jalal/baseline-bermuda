@@ -3,7 +3,7 @@ export default function Header() {
     <header className="relative  flex flex-col items-center">
       <div className="flex flex-col items-center text-center px-4 pt-84">
         <h1
-          className="text-[140px] md:text-[200px] leading-[1.1] font-[Thunder] font-medium bg-clip-text text-transparent"
+          className="text-[100px] md:text-[200px] leading-[1.1] font-[Thunder] font-medium bg-clip-text text-transparent"
           style={{
             background:
               "linear-gradient(90deg, #FFFFFF 0%, #565253 46.79%, #FFFFFF 100%)",
