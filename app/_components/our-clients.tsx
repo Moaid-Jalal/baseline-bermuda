@@ -27,9 +27,9 @@ const ImageMarquee = () => (
 export const OutClients = () => {
   return (
     <div id='clients' className="my-32 flex items-center justify-center w-full bg-black">
-      <div className="w-full max-w-[1440px] px-8 flex flex-col items-center space-y-8">
+      <div className="w-full max-w-[1440px] md:w-full flex flex-col items-center space-y-8">
         <h2
-          className="text-center font-[Thunder] font-medium align-middle bg-gradient-to-r from-[#BD937A] to-white bg-clip-text text-transparent
+          className="text-center font-[Thunder] px-8 font-medium align-middle bg-gradient-to-r from-[#BD937A] to-white bg-clip-text text-transparent
     text-[52.08px] leading-[62.67px] tracking-[0%] sm:text-[70px] sm:leading-[60.16px]"
         >
           Who We've Worked With
