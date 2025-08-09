@@ -1,5 +1,5 @@
 import React from 'react';
-import { easeInOut, motion } from 'framer-motion';
+import { easeInOut, easeOut, motion } from 'framer-motion';
 
 interface CardProps {
   icon: string;
@@ -75,14 +75,14 @@ const cards = [
 // Animation variant for cards
 const cardVariants = {
   hidden: { opacity: 0, y: 40, scale: 0.95 },
-  visible: (i) => ({
+  visible: (i: number) => ({
     opacity: 1,
     y: 0,
     scale: 1,
     transition: {
       delay: i * 0.05, // 👈 تقليل التأخير
       duration: 0.3,   // 👈 تقليل مدة الأنيميشن
-      ease: "easeOut",
+      ease: easeOut,
     },
   }),
 };
